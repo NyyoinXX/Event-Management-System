@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: #fafafa;
+  font-family: Poppins;
+}
+
+button.primary{
+  @apply text-white py-2 px-4 bg-primary cursor-pointer ring-1 ring-primary rounded font-bold hover:bg-white hover:shadow-lg duration-75 hover:ring-primarydark hover:text-primary;
+}
+button.secondary{
+  @apply flex items-center gap-2 text-primary py-2 px-4 bg-primarylight cursor-pointer ring-1 font-bold ring-primarylight rounded  hover:bg-primarydark hover:shadow-lg duration-75 hover:ring-primarydark hover:text-white;
+}
+div.input{
+  @apply flex bg-background rounded w-full py-2.5 px-4 gap-4 items-center ;
+}
+input.input-et{
+  @apply text-base bg-inherit text-black outline-none w-full;
+}
+
+.custom-list {
+  list-style-type: none;
+  padding-left: 2.0em; 
+}
+
+.custom-list li:before {
+  content: "•"; 
+  font-size: 17px;
+  position: absolute;
+  margin-left: -1.5em; 
+}
+
+.truncate-text {
+  display: -webkit-box;
+  -webkit-line-clamp:3 ; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.calendar-event {
+  @apply text-sm p-1 bg-primary text-white rounded truncate hover:bg-primarydark transition-colors;
+}
+
+.calendar-day {
+  @apply p-2 min-h-[120px] relative ring-4 bg-white ring-background hover:bg-gray-50;
+}
+
+.calendar-header {
+  @apply p-2 font-semibold bg-white ring-4 ring-background text-primary;
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(220, 38, 38); /* red-600 */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #1a1a1a;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera but keep functionality */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox but keep functionality */
+.hide-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
