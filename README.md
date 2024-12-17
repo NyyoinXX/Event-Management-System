@@ -76,7 +76,7 @@ A comprehensive event management platform designed specifically for Academic Cit
 - GET `/admin/event-responses` - Get all event responses (Admin only)
 
 ## API Testing Screenshots
-[Include screenshots of Postman tests for key endpoints]
+[]
 
 ## Technologies Used
 - Frontend: React, TailwindCSS, React Router, Axios
