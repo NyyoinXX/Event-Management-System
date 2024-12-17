@@ -4,8 +4,8 @@
 A comprehensive event management platform designed specifically for Academic City University. This system allows students and staff to view and register for campus events such as workshops, seminars, and club activities. Administrators can create and manage events, while users can easily RSVP and track their event participation.
 
 ## Deployment Links
-- Frontend: [ACity Events Hub](your-frontend-deployment-link)
-- Backend API: [Events API](your-backend-deployment-link)
+- [FrontEnd](https://event-management-system-faf2.onrender.com)
+- [Backend API](https://event-management-system-api-fv9o.onrender.com)
 
 ## Test Login Credentials
 
