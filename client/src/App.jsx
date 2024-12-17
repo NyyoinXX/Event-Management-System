@@ -13,7 +13,7 @@ import { UserContextProvider } from './UserContext';
 import { ToastContainer } from 'react-toastify';
 import ProtectedRoute from './components/ProtectedRoute';
 
-axios.defaults.baseURL = 'http://localhost:4000';
+axios.defaults.baseURL = 'https://event-management-system-api-fv9o.onrender.com';
 axios.defaults.withCredentials = true;
 
 function App() {
