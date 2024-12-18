@@ -14,8 +14,8 @@ A comprehensive event management platform designed specifically for Academic Cit
 - Password: admin123
 
 ### Regular User Account
-- Email: testuser@example.com
-- Password: test123
+- Email: user@example.com
+- Password: user123
 
 ## Features Checklist
 
